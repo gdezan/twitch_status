@@ -47,6 +47,24 @@ li {
 
 #streamers {
 	background-color: #07575B;
-	padding: 20px 15px;
+	padding: 20px 0px;
 }
 
+.logo {
+	max-width: 50px;
+	border-radius: 50%;
+	border: 2px solid white;
+}
+
+.stream {
+	transition: background-color 0.2s ease;
+	padding: 10px 15px;
+}
+
+.stream:hover {
+	background-color: #034c59;
+}
+
+.stream_name {
+	margin: 0 15px;
+}
