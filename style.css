@@ -7,6 +7,19 @@ li {
 	list-style-type: none;
 }
 
+h4 {
+	margin: 0;
+}
+
+a {
+	color: #fff;
+}
+
+a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
 #menu {
 	margin-top: 40px;
 }
@@ -45,15 +58,38 @@ li {
 
 }
 
+#bottom {
+	background-color: #003B46;
+	height: 50px;
+	border-radius: 0 0 8px 8px;
+	box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.6);
+}
+
 #streamers {
 	background-color: #07575B;
 	padding: 20px 0px;
 }
 
 .logo {
-	max-width: 50px;
+	max-width: 70px;
+	display: block;
 	border-radius: 50%;
 	border: 2px solid white;
+	margin: 0 auto;
+}
+
+.logo_div {
+	padding: 0;
+}
+
+.stream_div {
+	display:flex;
+	align-items:center;
+}
+
+.stream_status {
+	font-size: 15px;
+	font-weight: 400; 
 }
 
 .stream {
@@ -62,9 +98,20 @@ li {
 }
 
 .stream:hover {
-	background-color: #034c59;
+	background-color: #10777c;
 }
 
 .stream_name {
 	margin: 0 15px;
+}
+
+.stream2 {
+	transition: background-color 0.2s ease;
+	padding: 10px 15px;
+	margin: 0;
+	padding: 20px 20px;
+}
+
+.stream2:hover {
+	background-color: #10777c;
 }
