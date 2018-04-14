@@ -20,11 +20,11 @@ $(document).ready(function() {
 
 				$.getJSON(channelApi,function(data2){
 					channel = data2;
-					html = "<a href=\"http://twitch.tv/"+name+"\" target=\"blank\"><div class=\"row container "+status+" stream2\"><div class=\"col-3 logo_div\"><img class=\"logo\" src=\""+
+					html = "<a href=\"http://twitch.tv/"+name+"\" target=\"blank\"><div class=\"row container shadow "+status+" stream2\"><div class=\"col-3 logo_div\"><img class=\"logo\" src=\""+
 						channel.logo+"\"></div><div class=\"col-9 stream_div\"><h4>"+
 						channel.display_name+"<br><span class=\"stream_status\">"+
 						stream+"</span></h4></div></div></a>";
-					$("#streamers").append(html);
+					$("#streamers").prepend(html);
 			});
 			});
 		});

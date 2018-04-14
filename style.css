@@ -26,9 +26,8 @@ a:hover {
 #menu {
 	margin-top: 40px;
 	border-radius: 8px;
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
-	padding: 0px;
 }
+
 
 footer {
 	font-size: 15px;
@@ -48,8 +47,7 @@ footer > a:hover {
 #add {
 	background-color: #07575B;
 	margin: 0 auto;
-	padding-bottom: 25px;
-	padding-top: 15px;
+	padding: 30px 40px 15px 40px;
 }
 
 .status_col {
@@ -97,6 +95,7 @@ footer > a:hover {
 #streamers {
 	background-color: #07575B;
 	padding: 20px 0px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
 }
 
 .logo {
