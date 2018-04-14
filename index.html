@@ -8,9 +8,11 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
 	<script src="script.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Teko:300" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600" rel="stylesheet">
 
 </head>
 <body>
+	<h1>Twitch Status Viewer</h1>
 	<div class="container col-8 justify-content-center" id="menu">
 		<div class="container row justify-content-center" id="status">
 			<div class="container status_col col" tabindex="0" id="left_status">ALL</div>
@@ -19,6 +21,9 @@
 		</div>
 		<div class="container " id="streamers">
 		</div>
+		<div class="container" id="add">
+        	<input class="form-control" id="form" placeholder="Add another streamer">
+      	</div>
 		<div class="container" id="bottom"></div>
 	</div>
 </body>
