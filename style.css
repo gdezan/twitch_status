@@ -64,6 +64,7 @@ footer > a:hover {
 
 .status_col:hover, .status_col:focus {
 	background-color: #034c59;
+	outline-width: 0;
 }
 
 #left_status {
