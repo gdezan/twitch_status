@@ -24,7 +24,7 @@ $(document).ready(function() {
 						channel.logo+"\"></div><div class=\"col-9 stream_div\"><h4>"+
 						channel.display_name+"<br><span class=\"stream_status\">"+
 						stream+"</span></h4></div></div></a>";
-					$("#streamers").prepend(html);
+					$("#slot").prepend(html);
 			});
 			});
 		});
@@ -47,7 +47,7 @@ $(document).ready(function() {
 		if(e.which==13){
 			var newStream = $("#form").val();
 			displayName.push(newStream);
-			$("#streamers").html('');
+			$("#slot").html('');
 			create();
 		}
 	});
