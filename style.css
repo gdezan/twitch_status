@@ -3,10 +3,6 @@ body {
 	color: #fff;
 }
 
-li {
-	list-style-type: none;
-}
-
 h4 {
 	margin: 0;
 }
@@ -33,9 +29,10 @@ a:hover {
 	transition: background-color 0.2s ease;
 	font-family: 'Teko', sans-serif;
 	font-size: 25px;
+	cursor: pointer;
 }
 
-.status_col:hover {
+.status_col:hover, .status_col:focus {
 	background-color: #034c59;
 }
 
